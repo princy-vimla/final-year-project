@@ -1,0 +1,68 @@
+{
+  "role_skills": {
+    "gen_ai_developer": {
+      "must_have": ["python", "langchain_or_llamaindex", "openai_api", "prompt_engineering", "vector_databases", "rag_architecture"],
+      "good_to_have": ["pytorch", "fine_tuning", "rlhf", "multi_modal", "agents", "function_calling", "docker", "fastapi"],
+      "expert_level": ["custom_pretraining", "distributed_training", "model_merging", "quantization", "inference_optimization"],
+      "learning_path": {
+        "month_1_2": "Python mastery + FastAPI + basics of transformers",
+        "month_3_4": "LangChain/LlamaIndex + RAG + Vector DBs (Pinecone ChromaDB)",
+        "month_5_6": "Fine-tuning LLMs (LoRA QLoRA) + Prompt engineering advanced",
+        "month_7_8": "Multi-agent systems + Function calling + Tool use",
+        "month_9_10": "MLOps + Deployment (Docker K8s cloud)",
+        "month_11_12": "Build 3 production projects + Open source contributions"
+      }
+    },
+    "data_analyst": {
+      "must_have": ["sql", "python_pandas", "excel_advanced", "data_visualization", "statistics"],
+      "good_to_have": ["tableau", "power_bi", "r_language", "a_b_testing", "bigquery"],
+      "expert_level": ["advanced_statistics", "causal_inference", "dbt", "airflow"],
+      "learning_path": {
+        "month_1_2": "SQL mastery (window functions CTEs optimization)",
+        "month_3_4": "Python (Pandas NumPy Matplotlib Seaborn)",
+        "month_5_6": "Tableau/Power BI + Dashboard design principles",
+        "month_7_8": "Statistics and A/B testing",
+        "month_9_10": "Domain specialization (fintech/healthcare/ecommerce)",
+        "month_11_12": "Portfolio projects + Kaggle competitions"
+      }
+    },
+    "software_engineer": {
+      "must_have": ["dsa", "oop", "git", "one_backend_language", "sql", "api_design"],
+      "good_to_have": ["system_design", "docker", "ci_cd", "cloud_basics", "testing"],
+      "expert_level": ["distributed_systems", "microservices", "performance_optimization", "architecture_patterns"],
+      "learning_path": {
+        "month_1_3": "DSA (300+ LeetCode problems patterns)",
+        "month_4_5": "System Design fundamentals",
+        "month_6_7": "Full-stack project (React + Node/Python)",
+        "month_8_9": "Docker + CI/CD + Cloud deployment",
+        "month_10_12": "Open source + Mock interviews + Applications"
+      }
+    },
+    "ai_engineer": {
+      "must_have": ["python", "pytorch", "linear_algebra", "probability", "deep_learning"],
+      "good_to_have": ["tensorflow", "mlops", "docker", "cloud_ml_services", "transformers"],
+      "expert_level": ["custom_architectures", "distributed_training", "research_papers", "optimization"],
+      "learning_path": {
+        "month_1_2": "Python + Math foundations (Linear Algebra + Stats)",
+        "month_3_4": "Deep Learning basics (Andrew Ng course + PyTorch)",
+        "month_5_6": "Computer Vision or NLP specialization",
+        "month_7_8": "Transformers + LLMs + Fine-tuning",
+        "month_9_10": "MLOps + Model deployment",
+        "month_11_12": "Research paper implementation + Portfolio"
+      }
+    },
+    "ml_engineer": {
+      "must_have": ["python", "scikit_learn", "feature_engineering", "model_evaluation", "sql"],
+      "good_to_have": ["pytorch", "mlflow", "spark", "a_b_testing", "docker"],
+      "expert_level": ["distributed_ml", "model_optimization", "custom_loss_functions", "production_ml"],
+      "learning_path": {
+        "month_1_2": "Python + Statistics + Scikit-learn",
+        "month_3_4": "Feature engineering + Model selection",
+        "month_5_6": "Deep learning with PyTorch",
+        "month_7_8": "MLOps (MLflow Docker CI/CD)",
+        "month_9_10": "Distributed computing + Spark",
+        "month_11_12": "End-to-end ML projects + Kaggle"
+      }
+    }
+  }
+}

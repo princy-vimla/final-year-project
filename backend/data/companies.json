@@ -1,0 +1,115 @@
+{
+  "companies": {
+    "google": {
+      "name": "Google (Alphabet)",
+      "glassdoor_rating": 4.4,
+      "levels": {
+        "L3": {"title": "Software Engineer II", "base_lpa": {"min": 18, "max": 28}, "total_ctc_lpa": {"min": 25, "max": 45}, "in_hand_monthly": {"min": 150000, "max": 250000}, "stock_rsu_yearly_lpa": 5, "bonus_percent": 15},
+        "L4": {"title": "Senior SWE", "base_lpa": {"min": 28, "max": 42}, "total_ctc_lpa": {"min": 45, "max": 75}, "in_hand_monthly": {"min": 250000, "max": 400000}, "stock_rsu_yearly_lpa": 12, "bonus_percent": 15},
+        "L5": {"title": "Staff SWE", "base_lpa": {"min": 42, "max": 60}, "total_ctc_lpa": {"min": 75, "max": 120}, "in_hand_monthly": {"min": 400000, "max": 650000}, "stock_rsu_yearly_lpa": 25, "bonus_percent": 20}
+      },
+      "benefits": ["Health insurance (self + family)", "Free meals", "Gym and wellness", "20% time for side projects", "Generous parental leave", "Learning budget $12k/yr", "WFH flexibility", "Mental health support"],
+      "interview_rounds": ["Online Assessment", "Phone Screen", "4-5 Onsite (DSA + System Design + Behavioral + Googleyness)"],
+      "avg_interview_prep_months": 4,
+      "india_locations": ["Bangalore", "Hyderabad", "Gurgaon"],
+      "work_life_balance": 4.2,
+      "career_growth_rating": 4.5,
+      "reviews_summary": "Excellent compensation, world-class engineering culture, can be slow in promotions"
+    },
+    "microsoft": {
+      "name": "Microsoft",
+      "glassdoor_rating": 4.3,
+      "levels": {
+        "L59": {"title": "SDE 1", "base_lpa": {"min": 14, "max": 22}, "total_ctc_lpa": {"min": 20, "max": 35}, "in_hand_monthly": {"min": 120000, "max": 200000}, "stock_rsu_yearly_lpa": 3, "bonus_percent": 10},
+        "L62": {"title": "SDE 2", "base_lpa": {"min": 22, "max": 38}, "total_ctc_lpa": {"min": 35, "max": 60}, "in_hand_monthly": {"min": 200000, "max": 350000}, "stock_rsu_yearly_lpa": 8, "bonus_percent": 15},
+        "L63": {"title": "Senior SDE", "base_lpa": {"min": 38, "max": 55}, "total_ctc_lpa": {"min": 60, "max": 95}, "in_hand_monthly": {"min": 350000, "max": 500000}, "stock_rsu_yearly_lpa": 15, "bonus_percent": 20}
+      },
+      "benefits": ["Health + dental + vision", "Wellness reimbursement", "Stock purchase plan", "Certification reimbursement", "WFH flexible", "Parental leave 20 weeks", "Free LinkedIn Learning"],
+      "india_locations": ["Bangalore", "Hyderabad", "Noida"],
+      "work_life_balance": 4.3,
+      "career_growth_rating": 4.4,
+      "reviews_summary": "Great WLB especially in India, strong AI/Cloud teams, good management culture"
+    },
+    "amazon": {
+      "name": "Amazon",
+      "glassdoor_rating": 3.9,
+      "levels": {
+        "L4": {"title": "SDE 1", "base_lpa": {"min": 12, "max": 20}, "total_ctc_lpa": {"min": 18, "max": 32}, "in_hand_monthly": {"min": 100000, "max": 170000}, "stock_rsu_yearly_lpa": 2, "bonus_percent": 5},
+        "L5": {"title": "SDE 2", "base_lpa": {"min": 20, "max": 35}, "total_ctc_lpa": {"min": 32, "max": 55}, "in_hand_monthly": {"min": 170000, "max": 300000}, "stock_rsu_yearly_lpa": 8, "bonus_percent": 5},
+        "L6": {"title": "SDE 3", "base_lpa": {"min": 35, "max": 55}, "total_ctc_lpa": {"min": 55, "max": 90}, "in_hand_monthly": {"min": 300000, "max": 500000}, "stock_rsu_yearly_lpa": 15, "bonus_percent": 10}
+      },
+      "benefits": ["Health insurance", "Relocation bonus", "Signing bonus Year 1-2", "Career Choice program"],
+      "india_locations": ["Bangalore", "Hyderabad", "Chennai", "Gurgaon", "Pune"],
+      "work_life_balance": 3.3,
+      "career_growth_rating": 4.0,
+      "reviews_summary": "High-growth environment, PIP culture can be stressful, great for career jumpstart, RSU backloaded 5/15/40/40"
+    },
+    "tcs": {
+      "name": "TCS (Tata Consultancy Services)",
+      "glassdoor_rating": 3.7,
+      "levels": {
+        "ASE": {"title": "Assistant System Engineer", "base_lpa": {"min": 3.3, "max": 4.5}, "total_ctc_lpa": {"min": 3.6, "max": 5}, "in_hand_monthly": {"min": 25000, "max": 33000}},
+        "SE": {"title": "System Engineer", "base_lpa": {"min": 4.5, "max": 7}, "total_ctc_lpa": {"min": 5, "max": 8}, "in_hand_monthly": {"min": 33000, "max": 50000}},
+        "ITA": {"title": "IT Analyst", "base_lpa": {"min": 7, "max": 12}, "total_ctc_lpa": {"min": 8, "max": 14}, "in_hand_monthly": {"min": 50000, "max": 85000}},
+        "Consultant": {"title": "Consultant", "base_lpa": {"min": 12, "max": 20}, "total_ctc_lpa": {"min": 14, "max": 24}, "in_hand_monthly": {"min": 85000, "max": 140000}}
+      },
+      "benefits": ["Health insurance", "Provident fund", "Gratuity", "Training programs", "Global deployment opportunities"],
+      "india_locations": ["Pan-India all major cities"],
+      "work_life_balance": 4.0,
+      "career_growth_rating": 3.2,
+      "reviews_summary": "Stable job, good for freshers, slow salary growth, great training programs"
+    },
+    "startup_series_a": {
+      "name": "Typical Series A Startup",
+      "glassdoor_rating": 3.8,
+      "levels": {
+        "junior": {"title": "Software Engineer", "base_lpa": {"min": 6, "max": 15}, "total_ctc_lpa": {"min": 8, "max": 20}, "in_hand_monthly": {"min": 45000, "max": 120000}},
+        "senior": {"title": "Senior Engineer", "base_lpa": {"min": 15, "max": 30}, "total_ctc_lpa": {"min": 20, "max": 40}, "in_hand_monthly": {"min": 120000, "max": 230000}},
+        "lead": {"title": "Tech Lead", "base_lpa": {"min": 25, "max": 45}, "total_ctc_lpa": {"min": 35, "max": 55}, "in_hand_monthly": {"min": 200000, "max": 340000}}
+      },
+      "benefits": ["ESOPs", "Flexible hours", "Flat hierarchy", "Learn everything fast", "High impact per person"],
+      "india_locations": ["Bangalore", "Delhi NCR", "Mumbai"],
+      "work_life_balance": 3.0,
+      "career_growth_rating": 4.2,
+      "reviews_summary": "High risk high reward. Best for learning velocity. ESOPs can be life-changing or worthless"
+    }
+  },
+  "after_2_years_scenarios": {
+    "stay_same_company": {
+      "label": "Stay at Current Company",
+      "salary_hike_percent": "8-15",
+      "promotion_likelihood": "moderate",
+      "pros": ["Stability", "Domain expertise", "Known culture", "Vesting stocks"],
+      "cons": ["Slower salary growth", "Comfort zone", "May plateau"]
+    },
+    "switch_to_better": {
+      "label": "Switch to Higher-Tier Company",
+      "salary_hike_percent": "40-100",
+      "requirements": ["Strong DSA", "System design basics", "Project portfolio", "Competitive coding"],
+      "pros": ["Massive salary jump", "Better brand", "Stronger network", "Better engineering practices"],
+      "cons": ["Interview grind 3-6 months", "Culture shock", "May lose domain context"]
+    },
+    "masters_degree": {
+      "label": "Pursue Masters Degree",
+      "options": {
+        "ms_abroad": {"countries": ["USA", "Canada", "Germany", "UK"], "cost_lakhs": "25-80", "roi_years": 3, "salary_boost_percent": "60-150"},
+        "mtech_india": {"colleges": ["IITs", "IISc", "NITs", "BITS"], "cost_lakhs": "2-10", "gate_required": true, "salary_boost_percent": "30-80"},
+        "online_masters": {"platforms": ["Georgia Tech OMSCS", "UIUC MCS", "UT Austin MSAI"], "cost_lakhs": "5-15", "can_work_simultaneously": true}
+      },
+      "pros": ["Deep specialization", "Research opportunity", "Global network", "Higher ceiling"],
+      "cons": ["2 years gap or part-time", "Financial investment", "May not need for industry roles"]
+    },
+    "freelance_consulting": {
+      "label": "Go Freelance or Start Consulting",
+      "earnings_potential_monthly": "1L to 10L+ depending on niche",
+      "platforms": ["Toptal", "Upwork", "direct clients"],
+      "best_after_years_experience": 3
+    },
+    "entrepreneurship": {
+      "label": "Start Your Own Company",
+      "requirements": ["Problem worth solving", "Technical MVP skills", "Savings for 12-18 months"],
+      "success_rate_percent": 10,
+      "potential": "unlimited"
+    }
+  }
+}

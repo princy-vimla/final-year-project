@@ -1,0 +1,78 @@
+{
+  "emerging_roles_2025_2035": {
+    "quantum_ml_engineer": {
+      "label": "Quantum Machine Learning Engineer",
+      "emergence_year": 2026,
+      "maturity_year": 2032,
+      "prerequisites": ["linear_algebra", "quantum_mechanics_basics", "python", "qiskit_or_cirq", "ml_fundamentals"],
+      "estimated_salary_lpa": {"entry": 20, "mid": 50, "senior": 100},
+      "demand_prediction": "Low now then Explosive by 2030",
+      "companies_hiring": ["IBM Quantum", "Google Quantum AI", "Microsoft Azure Quantum", "IonQ"],
+      "how_to_prepare": "Start with Qiskit textbook then IBM Quantum certifications then Quantum ML research papers"
+    },
+    "ai_agent_architect": {
+      "label": "AI Agent Systems Architect",
+      "emergence_year": 2024,
+      "maturity_year": 2028,
+      "prerequisites": ["llm_engineering", "multi_agent_systems", "tool_use", "orchestration", "system_design"],
+      "estimated_salary_lpa": {"entry": 15, "mid": 40, "senior": 80},
+      "demand_prediction": "High and growing exponentially",
+      "how_to_prepare": "Master LangGraph CrewAI AutoGen then Build multi-agent production systems"
+    },
+    "synthetic_data_engineer": {
+      "label": "Synthetic Data Engineer",
+      "emergence_year": 2024,
+      "maturity_year": 2027,
+      "prerequisites": ["generative_models", "gans", "diffusion_models", "data_privacy", "statistics"],
+      "estimated_salary_lpa": {"entry": 12, "mid": 30, "senior": 55},
+      "demand_prediction": "High due to data privacy regulations"
+    },
+    "ai_safety_researcher": {
+      "label": "AI Safety and Alignment Researcher",
+      "emergence_year": 2023,
+      "maturity_year": 2026,
+      "prerequisites": ["ml_theory", "reinforcement_learning", "interpretability", "red_teaming"],
+      "estimated_salary_lpa": {"entry": 15, "mid": 45, "senior": 90},
+      "demand_prediction": "Critical and rapidly growing",
+      "companies_hiring": ["Anthropic", "OpenAI", "DeepMind", "MIRI"]
+    },
+    "spatial_computing_developer": {
+      "label": "Spatial Computing or XR Developer",
+      "emergence_year": 2024,
+      "maturity_year": 2028,
+      "prerequisites": ["unity_or_unreal", "3d_math", "computer_vision", "webxr"],
+      "estimated_salary_lpa": {"entry": 10, "mid": 28, "senior": 55},
+      "demand_prediction": "Growing with Apple Vision Pro and Meta Quest"
+    },
+    "edge_ai_engineer": {
+      "label": "Edge AI or TinyML Engineer",
+      "emergence_year": 2024,
+      "maturity_year": 2027,
+      "prerequisites": ["embedded_c", "model_quantization", "onnx", "tflite"],
+      "estimated_salary_lpa": {"entry": 8, "mid": 22, "senior": 45},
+      "demand_prediction": "Growing with IoT and mobile AI"
+    }
+  },
+  "future_impact_on_current_roles": {
+    "software_engineer": {
+      "ai_impact_by_2030": "40% of routine coding automated. Engineers become AI orchestrators.",
+      "survival_strategy": "Learn AI tools deeply, focus on system design, become T-shaped"
+    },
+    "data_analyst": {
+      "ai_impact_by_2030": "60% of current tasks automated by AI copilots. Pure dashboard builders at risk.",
+      "survival_strategy": "Move to decision science, learn causal inference, become business-domain expert"
+    },
+    "gen_ai_developer": {
+      "ai_impact_by_2030": "Role evolves rapidly. Current RAG/prompt engineering becomes commodity.",
+      "survival_strategy": "Stay on bleeding edge, contribute to open source, specialize in one vertical"
+    },
+    "ai_engineer": {
+      "ai_impact_by_2030": "Core role remains but shifts to AGI alignment and multi-modal systems.",
+      "survival_strategy": "Deep research skills, multi-modal expertise, safety and alignment knowledge"
+    },
+    "ml_engineer": {
+      "ai_impact_by_2030": "AutoML handles simple models. Focus shifts to complex production systems.",
+      "survival_strategy": "Master MLOps, distributed systems, and edge deployment"
+    }
+  }
+}
